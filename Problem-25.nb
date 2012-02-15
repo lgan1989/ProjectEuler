@@ -1,0 +1,80 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      1934,         70]
+NotebookOptionsPosition[      1530,         52]
+NotebookOutlinePosition[      1873,         67]
+CellTagsIndexPosition[      1830,         64]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"While", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Sum", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"DigitCount", "[", 
+         RowBox[{"Fibonacci", "[", "x", "]"}], "]"}], "[", 
+        RowBox[{"[", "i", "]"}], "]"}], " ", ",", " ", 
+       RowBox[{"{", 
+        RowBox[{"i", " ", ",", " ", "1", " ", ",", " ", "10"}], "}"}]}], 
+      "]"}], " ", "<", " ", "1000"}], " ", ",", " ", 
+    RowBox[{"x", " ", "=", " ", 
+     RowBox[{"x", " ", "+", " ", "1"}]}]}], "]"}], " "}]], "Input",
+ CellChangeTimes->{{3.4943091404417887`*^9, 3.494309186337414*^9}, {
+  3.494309221113403*^9, 3.4943093763192797`*^9}, {3.4943094090561523`*^9, 
+  3.494309463267253*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["x"], "Input",
+ CellChangeTimes->{3.4943094728208*^9}],
+
+Cell[BoxData["4782"], "Output",
+ CellChangeTimes->{3.494309473374831*^9}]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.4943091230007915`*^9, 3.4943091230047913`*^9}}]
+},
+WindowSize->{607, 549},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"7.0 for Microsoft Windows (32-bit) (November 10, 2008)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[545, 20, 702, 18, 52, "Input"],
+Cell[CellGroupData[{
+Cell[1272, 42, 67, 1, 31, "Input"],
+Cell[1342, 45, 73, 1, 30, "Output"]
+}, Open  ]],
+Cell[1430, 49, 96, 1, 31, InheritFromParent]
+}
+]
+*)
+
+(* End of internal cache information *)
+

@@ -1,0 +1,128 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      4162,        118]
+NotebookOptionsPosition[      3729,         98]
+NotebookOutlinePosition[      4075,        113]
+CellTagsIndexPosition[      4032,        110]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"ans", "  ", "=", " ", "0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"For", "[", 
+  RowBox[{
+   RowBox[{"x", " ", "=", " ", "1488"}], " ", ",", " ", 
+   RowBox[{"ans", " ", "\[Equal]", " ", "0"}], " ", ",", " ", 
+   RowBox[{"x", " ", "++"}], ",", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"a", " ", "=", " ", "x"}], ";", "\[IndentingNewLine]", 
+    RowBox[{"b", " ", "=", " ", 
+     RowBox[{"a", " ", "+", " ", "3330"}]}], ";", "\[IndentingNewLine]", 
+    RowBox[{"c", " ", "=", " ", 
+     RowBox[{"b", " ", "+", " ", "3330"}]}], ";", "\[IndentingNewLine]", 
+    RowBox[{"If", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"PrimeQ", "[", "a", "]"}], " ", "\[Equal]", " ", "True"}], 
+       " ", "&&", " ", 
+       RowBox[{
+        RowBox[{"PrimeQ", "[", "b", "]"}], " ", "\[Equal]", " ", "True"}], 
+       " ", "&&", " ", 
+       RowBox[{
+        RowBox[{"PrimeQ", "[", "c", "]"}], " ", "\[Equal]", " ", "True"}]}], 
+      ",", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"La", " ", "=", " ", 
+        RowBox[{"DigitCount", "[", "a", "]"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"Lb", " ", "=", " ", 
+        RowBox[{"DigitCount", "[", "b", "]"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"Lc", " ", "=", " ", 
+        RowBox[{"DigitCount", "[", "c", "]"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"If", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"La", " ", "\[Equal]", " ", "Lb"}], " ", "&&", " ", 
+          RowBox[{"La", " ", "\[Equal]", " ", "Lc"}]}], ",", 
+         "\[IndentingNewLine]", 
+         RowBox[{
+          RowBox[{"Print", "[", 
+           RowBox[{"a", ",", "b", ",", "c"}], "]"}], ";", 
+          "\[IndentingNewLine]", 
+          RowBox[{"Break", "[", "]"}], ";"}]}], "\[IndentingNewLine]", 
+        "]"}]}]}], "\[IndentingNewLine]", "]"}]}]}], " ", "\n", 
+  "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Print", "[", "ans", "]"}], ";"}]}], "Input",
+ CellChangeTimes->{{3.49700155763163*^9, 3.497002016414871*^9}, {
+  3.4970020501217985`*^9, 3.497002088117972*^9}, {3.497002123659005*^9, 
+  3.497002316168016*^9}, {3.4970023605865564`*^9, 3.497002379252624*^9}, {
+  3.4970024166597633`*^9, 3.497002467329662*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[""], "Print",
+ GeneratedCell->False,
+ CellAutoOverwrite->False,
+ CellChangeTimes->{{3.497001832784368*^9, 3.4970018361905627`*^9}, {
+   3.497001885344374*^9, 3.4970018911587067`*^9}, {3.4970019394214673`*^9, 
+   3.497002013320694*^9}, {3.497002253946457*^9, 3.4970023169450607`*^9}, 
+   3.497002379579643*^9, 3.4970024678876934`*^9, 3.4970026431217165`*^9}],
+
+Cell[BoxData[""], "Print",
+ GeneratedCell->False,
+ CellAutoOverwrite->False,
+ CellChangeTimes->{{3.497001832784368*^9, 3.4970018361905627`*^9}, {
+   3.497001885344374*^9, 3.4970018911587067`*^9}, {3.4970019394214673`*^9, 
+   3.497002013320694*^9}, {3.497002253946457*^9, 3.4970023169450607`*^9}, 
+   3.497002379579643*^9, 3.4970024678896937`*^9, 3.4970026442757826`*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.497001991322436*^9, 3.4970019921114807`*^9}}]
+},
+WindowSize->{607, 549},
+WindowMargins->{{Automatic, 307}, {-4, Automatic}},
+FrontEndVersion->"7.0 for Microsoft Windows (32-bit) (November 10, 2008)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[567, 22, 2269, 51, 352, "Input"],
+Cell[CellGroupData[{
+Cell[2861, 77, 370, 6, 23, "Print"],
+Cell[3234, 85, 370, 6, 23, "Print"]
+}, Open  ]]
+}, Open  ]],
+Cell[3631, 95, 94, 1, 31, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
+

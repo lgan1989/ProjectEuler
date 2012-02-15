@@ -1,0 +1,89 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      2731,         79]
+NotebookOptionsPosition[      2473,         66]
+NotebookOutlinePosition[      2820,         81]
+CellTagsIndexPosition[      2777,         78]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"ans", " ", "=", " ", "0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"num", " ", "=", " ", "0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"For", " ", "[", 
+  RowBox[{
+   RowBox[{"x", " ", "=", " ", "1"}], " ", ",", " ", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Prime", "[", "x", "]"}], " ", "*", " ", "21"}], " ", 
+    "\[LessEqual]", " ", "1000000"}], " ", ",", " ", 
+   RowBox[{"x", " ", "++"}], ",", "\[IndentingNewLine]", "\t", 
+   RowBox[{
+    RowBox[{"l", " ", "=", " ", "1"}], ";", "\[IndentingNewLine]", "\t", 
+    RowBox[{"s", " ", "=", " ", 
+     RowBox[{"Prime", "[", "x", "]"}]}], ";", "\[IndentingNewLine]", "\t", 
+    RowBox[{"For", " ", "[", 
+     RowBox[{
+      RowBox[{"i", " ", "=", " ", 
+       RowBox[{"x", " ", "+", " ", "1"}]}], " ", ",", " ", 
+      RowBox[{"s", " ", "<", " ", "1000000"}], " ", ",", " ", 
+      RowBox[{"i", " ", "++"}], ",", "\[IndentingNewLine]", "\t\t", 
+      RowBox[{
+       RowBox[{"s", " ", "+=", " ", 
+        RowBox[{"Prime", "[", "i", "]"}]}], ";", "\[IndentingNewLine]", 
+       "\t\t", 
+       RowBox[{"l", " ", "++"}], ";", "\[IndentingNewLine]", "\t\t", 
+       RowBox[{"If", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"s", " ", "<", " ", "1000000"}], " ", "&&", " ", 
+          RowBox[{
+           RowBox[{"PrimeQ", "[", "s", "]"}], " ", "\[Equal]", " ", "True"}], 
+          "  ", "&&", " ", 
+          RowBox[{"l", " ", ">", " ", "ans"}]}], ",", 
+         RowBox[{
+          RowBox[{"ans", " ", "=", " ", "l"}], ";", 
+          RowBox[{"num", " ", "=", " ", "s"}]}]}], "]"}], ";"}]}], " \t\t", 
+     "\[IndentingNewLine]", "\t", "]"}]}]}], " ", "\[IndentingNewLine]", 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Print", "[", "num", "]"}], ";"}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{{3.497003513213483*^9, 3.497003699796155*^9}, {
+  3.497003862346452*^9, 3.497003925111042*^9}}]
+},
+WindowSize->{607, 549},
+WindowMargins->{{Automatic, 223}, {-83, Automatic}},
+FrontEndVersion->"7.0 for Microsoft Windows (32-bit) (November 10, 2008)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[545, 20, 1924, 44, 292, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
+

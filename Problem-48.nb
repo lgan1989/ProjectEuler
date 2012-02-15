@@ -1,0 +1,68 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      1472,         58]
+NotebookOptionsPosition[      1149,         42]
+NotebookOutlinePosition[      1494,         57]
+CellTagsIndexPosition[      1451,         54]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"a", " ", "=", " ", 
+   RowBox[{"Sum", "[", 
+    RowBox[{
+     RowBox[{"i", "^", "i"}], " ", ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"i", " ", ",", "1", ",", " ", "1000"}], "}"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Print", "[", "a", "]"}], ";"}]}], "Input",
+ CellChangeTimes->{{3.494425643669752*^9, 3.494425698120867*^9}}],
+
+Cell[BoxData[""], "Print",
+ GeneratedCell->False,
+ CellAutoOverwrite->False,
+ CellChangeTimes->{{3.4944256767736464`*^9, 3.494425698548891*^9}, 
+   3.494425732582838*^9}]
+}, Open  ]]
+},
+WindowSize->{607, 549},
+WindowMargins->{{67, Automatic}, {46, Automatic}},
+FrontEndVersion->"7.0 for Microsoft Windows (32-bit) (November 10, 2008)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[567, 22, 393, 11, 52, "Input"],
+Cell[963, 35, 170, 4, 23, "Print"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

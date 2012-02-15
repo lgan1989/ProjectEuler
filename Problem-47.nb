@@ -1,0 +1,109 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      3530,        100]
+NotebookOptionsPosition[      3157,         83]
+NotebookOutlinePosition[      3503,         98]
+CellTagsIndexPosition[      3460,         95]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.4970005961476364`*^9, 3.497000610665467*^9}, {
+   3.4970006409651995`*^9, 3.497000655063006*^9}, {3.4970008537333694`*^9, 
+   3.4970009079854727`*^9}, 3.4970010979633384`*^9}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"ans", " ", "=", " ", "0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"For", " ", "[", 
+  RowBox[{
+   RowBox[{"x", " ", "=", " ", "2"}], " ", ",", " ", 
+   RowBox[{"ans", " ", "\[Equal]", " ", "0"}], " ", ",", " ", 
+   RowBox[{"x", " ", "++"}], " ", ",", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"a", " ", "=", " ", "x"}], ";", "\[IndentingNewLine]", 
+    RowBox[{"b", " ", "=", " ", 
+     RowBox[{"x", " ", "+", " ", "1"}]}], ";", "\[IndentingNewLine]", 
+    RowBox[{"c", " ", "=", " ", 
+     RowBox[{"x", " ", "+", " ", "2"}]}], ";", "\[IndentingNewLine]", 
+    RowBox[{"d", " ", "=", " ", 
+     RowBox[{"x", " ", "+", " ", "3"}]}], ";", "\[IndentingNewLine]", 
+    RowBox[{"la", " ", "=", " ", 
+     RowBox[{"FactorInteger", "[", "a", "]"}]}], ";", "\[IndentingNewLine]", 
+    RowBox[{"lb", " ", "=", " ", 
+     RowBox[{"FactorInteger", "[", "b", "]"}]}], ";", "\[IndentingNewLine]", 
+    RowBox[{"lc", " ", "=", " ", 
+     RowBox[{"FactorInteger", "[", "c", "]"}]}], ";", "\[IndentingNewLine]", 
+    RowBox[{"ld", " ", "=", " ", 
+     RowBox[{"FactorInteger", "[", "d", "]"}]}], ";", "\[IndentingNewLine]", 
+    RowBox[{"If", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"Length", "[", "la", "]"}], " ", "\[Equal]", " ", "4"}], " ", 
+       "&&", " ", 
+       RowBox[{
+        RowBox[{"Length", "[", "lb", "]"}], " ", "\[Equal]", " ", "4"}], " ", 
+       "&&", " ", 
+       RowBox[{
+        RowBox[{"Length", "[", "lc", "]"}], " ", "\[Equal]", " ", "4"}], " ", 
+       "&&", " ", 
+       RowBox[{
+        RowBox[{"Length", "[", "ld", "]"}], " ", "\[Equal]", " ", "4"}]}], 
+      ",", " ", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"ans", " ", "=", "  ", "a"}], ";", 
+       RowBox[{"Break", "[", "]"}], ";"}]}], "\[IndentingNewLine]", "]"}]}]}],
+   "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Print", " ", "[", "ans", "]"}], ";"}]}], "Input",
+ CellChangeTimes->{{3.4970006644075403`*^9, 3.497000979785579*^9}, {
+  3.4970010114883924`*^9, 3.497001238698388*^9}, {3.4970012758105106`*^9, 
+  3.497001281793853*^9}}],
+
+Cell[BoxData[""], "Print",
+ GeneratedCell->False,
+ CellAutoOverwrite->False,
+ CellChangeTimes->{{3.4970012288058224`*^9, 3.497001241131527*^9}, {
+   3.4970012784736633`*^9, 3.4970012850080366`*^9}, 3.4970015274149017`*^9}]
+}, Open  ]]
+},
+WindowSize->{607, 549},
+WindowMargins->{{320, Automatic}, {31, Automatic}},
+FrontEndVersion->"7.0 for Microsoft Windows (32-bit) (November 10, 2008)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[545, 20, 224, 3, 31, "Input"],
+Cell[CellGroupData[{
+Cell[794, 27, 2122, 47, 332, InheritFromParent],
+Cell[2919, 76, 222, 4, 23, "Print"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

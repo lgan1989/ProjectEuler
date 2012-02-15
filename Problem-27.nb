@@ -1,0 +1,100 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      3044,         90]
+NotebookOptionsPosition[      2720,         74]
+NotebookOutlinePosition[      3063,         89]
+CellTagsIndexPosition[      3020,         86]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"ans", " ", "=", " ", "0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"value", " ", "=", " ", "0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"For", "[", 
+  RowBox[{
+   RowBox[{"a", " ", "=", " ", 
+    RowBox[{"-", "1000"}]}], " ", ",", " ", 
+   RowBox[{"a", "  ", "\[LessEqual]", " ", "1000"}], " ", ",", " ", 
+   RowBox[{
+    RowBox[{"a", " ", "++"}], " ", "\[IndentingNewLine]", "[", " ", 
+    "\[IndentingNewLine]", "\t", 
+    RowBox[{"For", "[", 
+     RowBox[{
+      RowBox[{"b", " ", "=", " ", 
+       RowBox[{"-", "1000"}]}], " ", ",", " ", 
+      RowBox[{"b", " ", "\[LessEqual]", " ", "1000"}], " ", ",", " ", 
+      RowBox[{"b", " ", "++"}], ",", "  ", "\[IndentingNewLine]", "\t", 
+      RowBox[{
+       RowBox[{"temp", " ", "=", " ", "0"}], ";", "\[IndentingNewLine]", "\t", 
+       RowBox[{"While", "[", "  ", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"PrimeQ", " ", "[", 
+           RowBox[{
+            RowBox[{"temp", " ", "*", " ", "temp"}], " ", "+", " ", 
+            RowBox[{"a", " ", "*", " ", "temp"}], " ", "+", " ", "b"}], " ", 
+           "]"}], "  ", "\[Equal]", " ", "True"}], " ", ",", " ", 
+         RowBox[{"temp", " ", "++"}]}], "]"}], ";", "\[IndentingNewLine]", 
+       "          ", 
+       RowBox[{"If", " ", "[", 
+        RowBox[{
+         RowBox[{"temp", " ", ">", " ", "value"}], " ", ",", " ", 
+         RowBox[{
+          RowBox[{"value", " ", "=", " ", "temp"}], " ", ";", " ", 
+          RowBox[{"ans", " ", "=", " ", 
+           RowBox[{"a", " ", "*", " ", "b"}]}]}]}], "]"}]}]}], 
+     "\[IndentingNewLine]", "\[IndentingNewLine]", "\t", "]"}], 
+    "\[IndentingNewLine]", "\t\t", "\[IndentingNewLine]", " ", "]"}]}], 
+  "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Print", "[", "ans", "]"}]}], "Input",
+ CellChangeTimes->{{3.494313225435437*^9, 3.4943133186127663`*^9}, {
+  3.494313382805438*^9, 3.4943134910926313`*^9}, {3.494313529959855*^9, 
+  3.4943135790966654`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"-", "59231"}]], "Print",
+ CellChangeTimes->{{3.494313554228243*^9, 3.4943135756874704`*^9}, 
+   3.494313611057493*^9}]
+}, Open  ]]
+},
+WindowSize->{607, 549},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"7.0 for Microsoft Windows (32-bit) (November 10, 2008)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[567, 22, 1992, 44, 292, "Input"],
+Cell[2562, 68, 142, 3, 23, "Print"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

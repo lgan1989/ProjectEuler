@@ -1,0 +1,91 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      2696,         81]
+NotebookOptionsPosition[      2370,         65]
+NotebookOutlinePosition[      2715,         80]
+CellTagsIndexPosition[      2672,         77]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"numer", " ", "=", " ", "3"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"dom", " ", "=", " ", "2"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"cnt", " ", "=", " ", "1"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"ans", " ", "=", " ", "0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"While", "[", 
+  RowBox[{
+   RowBox[{"cnt", " ", "\[LessEqual]", " ", "1001"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"numer", " ", "+=", " ", "dom"}], ";", "\[IndentingNewLine]", 
+    RowBox[{"temp", " ", "=", " ", "dom"}], ";", "\[IndentingNewLine]", 
+    RowBox[{"dom", " ", "=", " ", "numer"}], ";", "\[IndentingNewLine]", 
+    RowBox[{"numer", " ", "=", " ", "temp"}], ";", "\[IndentingNewLine]", 
+    RowBox[{"numer", " ", "+=", " ", "dom"}], ";", "\[IndentingNewLine]", 
+    RowBox[{"If", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"Length", "[", 
+        RowBox[{"IntegerDigits", "[", "numer", "]"}], "]"}], " ", ">", " ", 
+       RowBox[{"Length", "[", 
+        RowBox[{"IntegerDigits", "[", "dom", "]"}], "]"}]}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"ans", " ", "+=", " ", "1"}], ";"}]}], "\[IndentingNewLine]", 
+     "]"}], ";", "\[IndentingNewLine]", 
+    RowBox[{"cnt", " ", "+=", " ", "1"}], ";"}]}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Print", " ", "[", "ans", "]"}], ";"}]}], "Input",
+ CellChangeTimes->{{3.5303995213506203`*^9, 3.530399525059832*^9}, {
+  3.5303995777518463`*^9, 3.5303996162220464`*^9}, {3.530399650890029*^9, 
+  3.530399696267625*^9}}],
+
+Cell[BoxData["153"], "Print",
+ CellChangeTimes->{{3.5303995830971518`*^9, 3.53039961681308*^9}, {
+  3.530399662205676*^9, 3.5303996967776537`*^9}}]
+}, Open  ]]
+},
+WindowSize->{615, 526},
+WindowMargins->{{43, Automatic}, {Automatic, 54}},
+FrontEndVersion->"7.0 for Microsoft Windows (64-bit) (November 10, 2008)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[567, 22, 1637, 36, 352, "Input"],
+Cell[2207, 60, 147, 2, 23, "Print"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
